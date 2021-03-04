@@ -65,4 +65,29 @@ a {
 .first {
   font-size: $fs;
   color: $white;
+  top: 320px;
+  left: 200px;
+  position: absolute;
+  @include mainCol();
+  @include flex(center);
+}
+.second {
+  font-size: $fs * 3;
+  color: $white;
+  top: 370px;
+  left: 465px;
+  width: 600px;
+  margin: 0 auto;
+  position: absolute;
+  @include flex(center);
+}
+.button1 {
+  position: absolute;
+  width: 180px;
+  height: 30px;
+  left: 650px;
+  top: 505px;
+  border-radius: 30px;
+  color: $white;
+  background: $primary;
 }
